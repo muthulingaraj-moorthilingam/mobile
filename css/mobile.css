@@ -1,0 +1,86 @@
+.bg-clr{
+	background-color: #1f2531;
+}
+.top-menu{
+    margin-bottom: : 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>li>a{
+	background-color: transparent;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.left{
+	text-align: left;
+	color: #fff;
+}
+.left h1{
+	font-size: 52px;
+}
+.left p{
+	font-size: 16px;
+}
+.left p a{
+	color: #b86365;
+}
+.logo h5{
+	display: inline-block;
+	background-color:#10131b;
+	color: #fff;
+	font-size: 13px;
+	padding: 12px; 
+	border-radius: 10px;
+}
+.pad{
+	padding: 25px 0px;
+}
+.cont-div{
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 20px 0px;
+}
+.col-img{
+	height: 205px;
+	margin:0;
+	background-color: #b86365;
+	border:18px solid #e2e2e2;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	padding: 20px;
+	margin: 15px 10px;
+	color: #fff;
+}
+.row-small{
+	text-align: center;
+}
+.span-img{
+	background-color: #e80d12;
+}
+@media only screen and (max-width: 320px){
+	.right img{
+		width: 290px;
+		height: auto;
+	}
+	.right{
+		text-align: center;
+	}
+	.left{
+		margin-bottom: 20px;
+	}
+	.left h1{
+		margin-top: 0px;
+	}
+}
+@media only screen and (min-width: 768px){
+	.right,.left{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.left h1{
+		margin-top: 0px;
+	}
+}
